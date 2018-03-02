@@ -1,4 +1,5 @@
 class Car:
+
     def __init__(self):
         self.speed = 0
         self.odometer = 0
@@ -10,7 +11,7 @@ class Car:
         print("I am going {} kph".format(self.speed))
 
     def accelerate(self):
-        self.speed += 5;
+        self.speed += 5
 
     def brake(self):
         self.speed -= 5
